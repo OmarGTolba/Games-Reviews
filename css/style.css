@@ -1,0 +1,178 @@
+.loading {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: #272b30e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+p button{
+    font-size: 14px;
+    border-radius: 30%;
+    background-color:  RGBA(13,202,240,1);
+    padding: 4px;
+    border: none;
+}
+
+.freeBtn{
+    background-color: RGBA(13,110,253,0.4);
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+}
+.detailsBtn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ffc107;
+transition: .2s;
+}
+
+.detailsBtn:hover{
+background-color: #ffc107;
+}
+.detailsBtn a{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+.freeBtn:hover {
+    
+    background-color: RGBA(13,110,253,1);
+}
+ .loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: absolute;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+ }
+ .specDetails{
+    border-top: 1px solid rgba(0, 0, 0, 0.175) !important;
+ }
+ .specDetails a {
+    color: #fff;
+background-color: #32383e !important ;
+
+}
+ .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left: 4px solid rgb(58, 73, 123);
+    
+    animation: rotation 0.5s linear infinite reverse;
+ }
+ @keyframes rotation {
+    0% {
+       transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+ /* .navP{
+    padding-top: 400px !important;
+ } */
+ #backgroundImg{
+height: 400px !important;
+ }
+
+#game{
+    
+    margin-top: 100px !important;
+}
+p,h5{
+    color: rgb(191, 193, 200) !important;
+
+}
+
+body{
+    color: rgb(191, 193, 200) !important;
+    background-color:#272b30 !important;
+    position: relative;
+}
+#navbar {
+position: absolute;
+z-index: 99;
+top: 350px;
+left: 50%;
+
+transform: translateX(-50%);
+    background-color: rgb(58, 73, 123) !important;
+width: 75% !important ; 
+}
+
+.logo{
+width: 50px !important;
+margin: 0 5px 5px;    
+}
+
+
+.navbar{
+    background-color:rgb(58, 73, 123)  !important;
+
+    height: 70px;
+}
+  
+  /* Navbar links */
+  
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0;
+    left: 0;
+    margin: 0 !important;
+    width: 1000px !important;
+   
+}
+  #btnClose{
+position: absolute;
+top: 40px;
+right: 100px;
+margin: 10px;
+  }
+.navbar-nav .nav-link.active {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;;
+    border-radius: 30px;
+    padding: 5px 25px !important;
+}
+
+.nav-item:hover .nav-link {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;;
+    border-radius: 30px;
+    padding: 5px 25px !important;
+}
+.card{
+    transition: .5s;
+    background-color: transparent !important;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+
+.navbar-nav .nav-link {
+    color: white !important;
+    border: 1px solid transparent;;
+    border-radius: 30px;
+    
+    padding: 5px 25px !important;
+}
+
+
